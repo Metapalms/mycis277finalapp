@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Complex Message Encoder & Decoder
 
-You can use the [editor on GitHub](https://github.com/Metapalms/mycis277finalapp/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+For an extra credit assignment in my previous C++ class we had made a message decoder. After quickly getting that done I wanted to make a message encoder to go allong with it. There ended up being a slight problem attempting to make the encoder because of how spaces were used in the cipher. Never-theless, now i ant to make my own message encoder and decoder where at the very least I will have ea kick out of using it with my friends.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We have always messed around with talk of using a code to talk to eachother at times so I am figuring why not. With that though if I am going to be doing this I want the encoded message to be fairy hard to crack. Thus I need it to be a fair bit more adaptive than the simple cipher that we had used in the extra credit assignment.
 
-### Markdown
+### Possible Ciphers
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+-monoalphabetic cipher 
 
-```markdown
-Syntax highlighted code block
+-polyalphabetic cipher?
 
-# Header 1
-## Header 2
-### Header 3
+-one time pad encryption?
 
-- Bulleted
-- List
+-enigma machine variant?
 
-1. Numbered
-2. List
+Possibly I could have it set so you can do any of the three based on the first number of the cipher code that will be used
 
-**Bold** and _Italic_ and `Code` text
+### Cipher Code
 
-[Link](url) and ![Image](src)
-```
+I am still fleshing out the idea of this. I believe it is going to have to be at least a 3 digit long code. I am not sure yet, however, this code will be something that eiter you and your friend will agree upon before hand or send in the encoded message. Along with that the person who encodes the message will be able to either choose it by hand or use a randomizer that I will put in. 
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Metapalms/mycis277finalapp/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
